@@ -4,7 +4,7 @@ gym==0.10.9
 ptan==0.3
 opencv-python==3.4.3.18
 scipy==1.10.0rc1
-torch==0.4.1
+torch==2.2.0
 torchvision==0.2.1
 tensorboard-pytorch==0.7.1
 tensorflow==1.12.0
@@ -13,3 +13,9 @@ pybullet==2.3.6
 matplotlib==3.0.2
 setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability
 wheel>=0.38.0 # not directly required, pinned by Snyk to avoid a vulnerability
+certifi>=2023.7.22 # not directly required, pinned by Snyk to avoid a vulnerability
+grpcio>=1.53.2 # not directly required, pinned by Snyk to avoid a vulnerability
+idna>=3.7 # not directly required, pinned by Snyk to avoid a vulnerability
+pillow>=9.2.0 # not directly required, pinned by Snyk to avoid a vulnerability
+requests>=2.31.0 # not directly required, pinned by Snyk to avoid a vulnerability
+werkzeug>=2.2.3 # not directly required, pinned by Snyk to avoid a vulnerability
